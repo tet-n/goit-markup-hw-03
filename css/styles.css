@@ -268,6 +268,11 @@ p {
 /* Портфоліо */
 
 /* Проєкти */
+
+.section-projects {
+  padding: 94px 0;
+}
+
 .filter .btn {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -293,6 +298,7 @@ p {
 }
 
 .item-title {
+  margin-top: 20px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -301,6 +307,7 @@ p {
 }
 
 .item-text {
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
