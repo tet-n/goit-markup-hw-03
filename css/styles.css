@@ -39,6 +39,10 @@ p {
   margin-bottom: 0;
 }
 
+ul {
+  padding-left: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -50,6 +54,11 @@ p {
 /* Шапка */
 .header {
   border-bottom: 1px solid #eeeeee;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 /* Логотип */
@@ -72,7 +81,20 @@ p {
 }
 
 /* Навігація */
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-item + .nav-item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding: 32px 0;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +113,18 @@ p {
 }
 
 /* Контакти */
+
+.header .contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.header .contact-item + .contact-item {
+  margin-left: 50px;
+}
+
 .contact .link {
+  display: block;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -165,6 +198,18 @@ p {
   padding: 94px 0;
 }
 
+.feature-list {
+  display: flex;
+}
+
+.feature-item {
+  width: 270px;
+}
+
+.feature-item + .feature-item {
+  margin-left: 30px;
+}
+
 .feature-title {
   margin-bottom: 10px;
 
@@ -190,6 +235,12 @@ p {
 
 .section-work {
   padding-bottom: 94px;
+}
+
+.work-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 /* Наша команда */
