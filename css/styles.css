@@ -64,7 +64,7 @@ ul {
 /* Логотип */
 .logo {
   color: #000000;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -250,6 +250,10 @@ ul {
   background-color: var(--secondary-bg-color);
 }
 
+.team-list {
+  display: flex;
+}
+
 .section-team .section-title {
   margin-bottom: 50px;
 }
@@ -257,6 +261,10 @@ ul {
 .item-team {
   background-color: var(--primary-bg-color);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-img {
+  display: block;
 }
 
 .title-team {
