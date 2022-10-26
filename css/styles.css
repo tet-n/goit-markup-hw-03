@@ -72,14 +72,6 @@ img {
   text-decoration: none;
 }
 
-.logo:hover {
-  color: var(--accent-color);
-}
-
-.logo-accent {
-  color: var(--accent-color);
-}
-
 /* Навігація */
 
 .site-nav {
@@ -196,14 +188,12 @@ img {
 
 .feature-list {
   display: flex;
+  gap: 30px;
 }
 
 .feature-item {
-  width: 270px;
-}
-
-.feature-item + .feature-item {
-  margin-left: 30px;
+  min-width: 270px;
+  flex-basis: calc((100% - 3 * 30) / 4);
 }
 
 .feature-title {
@@ -231,14 +221,7 @@ img {
 
 .work-list {
   display: flex;
-}
-
-.work-list > .item:nth-child(3n) {
-  margin-right: 0px;
-}
-
-.work-list > .item {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 /* Наша команда */
@@ -249,6 +232,7 @@ img {
 
 .team-list {
   display: flex;
+  gap: 30px;
 }
 
 .section-team .section-title {
@@ -260,14 +244,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.item-team {
-  margin-right: 30px;
-}
-
-.item-team:nth-child(4n) {
-  margin-right: 0;
 }
 
 .team-list .content {
