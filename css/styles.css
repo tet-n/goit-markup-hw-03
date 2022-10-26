@@ -192,8 +192,7 @@ img {
 }
 
 .feature-item {
-  min-width: 270px;
-  flex-basis: calc((100% - 3 * 30) / 4);
+  flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .feature-title {
