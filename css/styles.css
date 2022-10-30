@@ -337,7 +337,7 @@ img {
 
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  border-style: none;
+  border: none;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
