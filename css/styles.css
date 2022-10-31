@@ -46,6 +46,19 @@ img {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .section {
   padding: 94px 0;
 }
@@ -70,6 +83,10 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
 }
 
 /* Навігація */
@@ -378,6 +395,7 @@ img {
 .project-item .content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .item-title {
